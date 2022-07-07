@@ -1,0 +1,89 @@
+.vagas {
+    padding: 6rem 0;
+}
+
+.vagas__busca {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.vagas__chamada {
+    background-color: var(--cor-fundo);
+    border-radius: 1rem;
+    color: var(--vermelho);
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    padding: .25rem .75rem;
+}
+
+.vagas__titulo {
+    color: var(--cinza-titulo);
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+.vagas__texto {
+    color: var(--cinza-texto);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.vagas__imagem {
+    margin: 0 7rem;
+    padding-top: 2.75rem;
+    width: auto;
+}
+
+
+.vagas__abertas {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.vagas__area {
+    align-items: flex-start;
+    color: var(--cinza-titulo);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    padding-top: 4rem;
+    width: 768px;
+}
+
+.vagas__lista {
+    display: flex;
+    border: 1px solid var(--borda);
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 136px;
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    width: 768px;
+}
+
+.vagas__cargo {
+    color: var(--cinza-titulo);
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.vagas__detalhes {
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.vagas__horario, .vagas__salario {
+    color: var(--cinza-texto);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
